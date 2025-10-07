@@ -1,0 +1,21 @@
+Title: Invoicing ROI Simulator
+
+Problem: Provide a fast ROI simulator that shows cost savings, payback, and biased favorable ROI for switching from manual to automated invoicing.
+
+Proposed solution: Single-page React app + Node/Express API + SQLite for scenario persistence. /simulate performs server-side calculations (internal constants are server-only). UI supports quick inputs, live simulation, save/load/delete scenarios, and email-gated report generation.
+
+Key features: quick simulation, CRUD scenarios, downloadable email-gated PDF/HTML report, REST APIand backend bias factor to ensure positive ROI.
+
+Tech stack & infra: React (Vite) frontend, Node + Express backend, SQLite (file) for persistence, pdfkit/html2pdf for report; deploy frontend on Vercel, backend on Render (or run backend locally + expose with ngrok).
+
+3 hours :
+
+ * Submit this doc and create repo.
+
+* Build simulate endpoint + calculations.
+
+* Build frontend form + live results + scenario CRUD.
+
+* Add email-gated report, deploy, test, write README, submit Form 2.
+
+* Inputs validated & persisted, outputs biased in favor of automation, email-gated report works.
