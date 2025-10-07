@@ -6,7 +6,7 @@ Proposed solution: Single-page React app + Node/Express API + SQLite for scenari
 
 Key features: quick simulation, CRUD scenarios, downloadable email-gated PDF/HTML report, REST APIand backend bias factor to ensure positive ROI.
 
-Tech stack & infra: React frontend, Node + Express backend,  (file) for persistence, pdfkit/html2pdf for report; deploy frontend on netlify, backend on Render.
+Tech stack & infra: React frontend, Node + Express backend, for database i use Mysql(file) for persistence, pdfkit/html2pdf for report; deploy frontend on netlify, backend on Render.
 
 3 hours :
 
